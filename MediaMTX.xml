@@ -14,14 +14,14 @@
   <WebUI/>
   <TemplateURL/>
   <Icon>https://i.imgur.com/0tTu0he.png</Icon>
-  <ExtraParams>-v $PWD/mediamtx.yml:/mnt/user/appdata/mediamtx/mediamtx.yml</ExtraParams>
+  <ExtraParams/>
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1683181717</DateInstalled>
   <DonateText/>
   <DonateLink/>
-  <Requires/>
-  <Config Name="MediaMTX Protocols" Target="MTX_PROTOCOLS" Default="tcp" Mode="" Description="Required to operate in bridge mode" Type="Variable" Display="always" Required="false" Mask="false">tcp</Config>
+  <Requires>Host mode is required for UDP support.</Requires>
+  <Config Name="MediaMTX Protocols" Target="MTX_PROTOCOLS" Default="tcp" Mode="" Description="Required to operate in a bridge network, remove if using a host network." Type="Variable" Display="always" Required="false" Mask="false">tcp</Config>
   <Config Name="RTSP" Target="8554" Default="8554" Mode="tcp" Description="Port for RTSP traffic" Type="Port" Display="always" Required="false" Mask="false">8554</Config>
   <Config Name="RTMP" Target="1935" Default="1935" Mode="tcp" Description="Port for RTMP traffic" Type="Port" Display="always" Required="false" Mask="false">1935</Config>
   <Config Name="HLS" Target="8888" Default="8888" Mode="tcp" Description="Port for HLS traffic" Type="Port" Display="always" Required="false" Mask="false">8888</Config>
