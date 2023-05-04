@@ -10,7 +10,7 @@
   <Support/>
   <Project>https://github.com/aler9/mediamtx</Project>
   <Overview>Also known as rtsp-simple-server. Ready-to-use RTSP / RTMP / LL-HLS / WebRTC server and proxy that allows to read, publish and proxy video and audio streams.</Overview>
-  <Category>GameServers: Network:Proxy</Category>
+  <Category>GameServers: Network:Other</Category>
   <WebUI/>
   <TemplateURL/>
   <Icon>https://i.imgur.com/0tTu0he.png</Icon>
