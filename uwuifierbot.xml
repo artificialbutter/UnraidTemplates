@@ -15,10 +15,10 @@ https://github.com/artificialbutter/UwuifierBot</Overview>
   <WebUI/>
   <TemplateURL/>
   <Icon>https://github.com/artificialbutter/UwuifierBot/raw/main/icon.png</Icon>
-  <ExtraParams/>
+  <ExtraParams>--memory=0.5G</ExtraParams>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1683179005</DateInstalled>
+  <DateInstalled>1683284030</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
