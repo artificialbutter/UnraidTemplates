@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>MediaMTX</Name>
+  <Repository>artificialbutter/mediamtx-unraid</Repository>
+  <Registry>https://hub.docker.com/r/artificialbutter/mediamtx-unraid</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/aler9/mediamtx</Project>
+  <Overview>Also known as rtsp-simple-server. Ready-to-use RTSP / RTMP / LL-HLS / WebRTC server and proxy that allows to read, publish and proxy video and audio streams.</Overview>
+  <Category>GameServers:</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://i.imgur.com/0tTu0he.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1683697747</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="RTSP" Target="8554" Default="8554" Mode="tcp" Description="RTSP Port" Type="Port" Display="always" Required="false" Mask="false">8554</Config>
+  <Config Name="RTMP" Target="1935" Default="1935" Mode="tcp" Description="RTMP Port" Type="Port" Display="always" Required="false" Mask="false">1935</Config>
+  <Config Name="HLS " Target="8888" Default="8888" Mode="tcp" Description="HLS Port" Type="Port" Display="always" Required="false" Mask="false">8888</Config>
+  <Config Name="WebRTC" Target="8889" Default="8889" Mode="tcp" Description="WebRTC Port" Type="Port" Display="always" Required="false" Mask="false">8889</Config>
+  <Config Name="MediaMTX Config" Target="/app/config" Default="/mnt/user/appdata/mediamtx/" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/mediamtx/</Config>
+</Container>
