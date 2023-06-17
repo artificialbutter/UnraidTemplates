@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Chibisafe</Name>
-  <Repository>ghcr.io/chibisafe/chibisafe:latest</Repository>
+  <Repository>ghcr.io/chibisafe/chibisafe</Repository>
   <Registry>https://github.com/orgs/chibisafe/packages/container/package/chibisafe</Registry>
   <Network>bridge</Network>
   <Shell>sh</Shell>
