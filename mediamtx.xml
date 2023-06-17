@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>MediaMTX</Name>
-  <Repository>ghcr.io/artificialbutter/mediamtx-unraid:main</Repository>
+  <Repository>ghcr.io/artificialbutter/mediamtx-unraid</Repository>
   <Registry>https://github.com/artificialbutter/MediaMTX-Unraid</Registry>
   <Network>bridge</Network>
   <Shell>sh</Shell>
