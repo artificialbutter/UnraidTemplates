@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Chibisafe</Name>
+  <Repository>ghcr.io/chibisafe/chibisafe:latest</Repository>
+  <Registry>https://github.com/orgs/chibisafe/packages/container/package/chibisafe</Registry>
+  <Network>bridge</Network>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Project>https://github.com/chibisafe/chibisafe</Project>
+  <Overview>Chibisafe is a file uploader service written in node that aims to to be easy to use and easy to set up. It's easy to use, easy to deploy, free and open source. It accepts files, photos, documents, anything you imagine and gives you back a shareable link for you to send to others.&#xD;
+&#xD;
+It supports both public and private mode. Public mode let's anyone sign up and start uploading files to the service, whereas private mode only users with an invite link can do so. During upload, if the file is big it's automatically split into chunks to minimize the chance of network failures enabling you to retry each chunk up to 5 times. Users can also create an API key to use with 3rd party applications to interact directly with their account.&#xD;
+&#xD;
+The service also comes with a control panel where you can edit almost every configuration of the instance directly from the UI without having to touch environment or configuration files manually. Control the name, the ratelimit, max file size, accepted extensions, meta descriptions, etc directly from an intuitive panel.&#xD;
+&#xD;
+Features&#xD;
+Chunked uploads&#xD;
+Share direct links to uploaded files&#xD;
+Albums/Folders with direct links to share&#xD;
+File management&#xD;
+File tagging&#xD;
+User management&#xD;
+Public or Private mode (with invite support)&#xD;
+ShareX support out-of-the-box to upload screenshots/screenrecordings from your desktop&#xD;
+Browser extension to upload content from websites easily&#xD;
+Easily extensible&#xD;
+Open source&#xD;
+No tracking (except for IP logging of requests)&#xD;
+No ads</Overview>
+  <Category>Backup: Cloud: Downloaders: MediaApp:Video MediaApp:Photos</Category>
+  <WebUI>http://[IP]:[PORT:8056]</WebUI>
+  <Icon>https://i.imgur.com/XxLjUtu.png</Icon>
+  <DateInstalled>1686962435</DateInstalled>
+  <Config Name="Port" Target="8000" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8056</Config>
+  <Config Name="DB Path" Target="/home/node/chibisafe/database" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/chibisafe/database</Config>
+  <Config Name="Upload Path" Target="/home/node/chibisafe/uploads" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/chibisafe/uploads</Config>
+  <Config Name="Logs Path" Target="/home/node/chibisafe/logs" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/chibisafe/logs</Config>
+</Container>
